@@ -1,4 +1,4 @@
-alert("Adınız Derinsu ise oynayabilirsiniz 😜");
+alert("Adınız Derinsu ve Ada ise oynayabilirsiniz 😜");
 //!{1-20-->Floor(Math.random*20+1)}
 //Bilgisayar 1-20 arasında bir sayı tut!
 
@@ -17,8 +17,7 @@ document.querySelector(".kontrol").onclick = function () {
 
     document.querySelector(".question").textContent = rastgeleSayi;
 
-    document.querySelector(".mesaj").textContent =
-      "Tebrikleeeeer Bildin Derinsuu 🎈🎈";
+    document.querySelector(".mesaj").textContent = "Tebrikleeeeer Bildin 🎈🎈";
 
     //todo *Rekoru guncelle*
     if (puanPc > rekorPc) {
